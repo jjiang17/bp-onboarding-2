@@ -1,0 +1,63 @@
+.button-container {
+    border: 10px;
+    display: flex;
+    margin: 25px;
+}
+
+.App-button {
+    border: 5px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    height: 55px;
+    align-items: center;
+    border-radius: 40px;
+}
+ 
+#button-clear {
+    background-color: #00000000;
+    border-color: white;
+    border-style: solid;
+
+}
+
+#button-green {
+    background-color: rgb(72, 211, 135);
+    border-style: solid;
+    border-color: rgb(72, 211, 135);
+}
+
+#button-white {
+    background-color: white;
+    border-color: white;
+    border-style: solid;
+
+}
+
+#button-clearAlt {
+    background-color: #00000000;
+    border-color: rgb(72, 211, 135);
+    border-style: solid;
+}
+
+.App-button-text {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+
+}
+
+#button-text-white {
+    color: white; 
+    
+}
+
+#button-text-green {
+    color: rgb(72, 211, 135);
+}
+
+#button-text-grey {
+    color:rgb(206, 206, 206)
+}
